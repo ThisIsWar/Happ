@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04BCF8D214D8947000CFD2C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BCF8D114D8947000CFD2C1 /* UIKit.framework */; };
+		04BCF8D414D8947000CFD2C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BCF8D314D8947000CFD2C1 /* Foundation.framework */; };
+		04BCF8D614D8947000CFD2C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BCF8D514D8947000CFD2C1 /* CoreGraphics.framework */; };
+		04BCF8DC14D8947100CFD2C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04BCF8DA14D8947100CFD2C1 /* InfoPlist.strings */; };
+		04BCF8DE14D8947100CFD2C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BCF8DD14D8947100CFD2C1 /* main.m */; };
+		04BCF8E214D8947100CFD2C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BCF8E114D8947100CFD2C1 /* AppDelegate.m */; };
+		04BCF8E514D8947100CFD2C1 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BCF8E314D8947100CFD2C1 /* MainStoryboard_iPhone.storyboard */; };
+		04BCF8E814D8947100CFD2C1 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BCF8E614D8947100CFD2C1 /* MainStoryboard_iPad.storyboard */; };
+		04BCF8EB14D8947100CFD2C1 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BCF8EA14D8947100CFD2C1 /* MasterViewController.m */; };
+		04BCF8EE14D8947100CFD2C1 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BCF8ED14D8947100CFD2C1 /* DetailViewController.m */; };
+		04BCF8F614D8947100CFD2C1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BCF8F514D8947100CFD2C1 /* SenTestingKit.framework */; };
+		04BCF8F714D8947100CFD2C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BCF8D114D8947000CFD2C1 /* UIKit.framework */; };
+		04BCF8F814D8947100CFD2C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BCF8D314D8947000CFD2C1 /* Foundation.framework */; };
+		04BCF90014D8947100CFD2C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04BCF8FE14D8947100CFD2C1 /* InfoPlist.strings */; };
+		04BCF90314D8947100CFD2C1 /* What_s_The_HappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BCF90214D8947100CFD2C1 /* What_s_The_HappTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04BCF8F914D8947100CFD2C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04BCF8C414D8947000CFD2C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04BCF8CC14D8947000CFD2C1;
+			remoteInfo = "What's The Happ";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04BCF8CD14D8947000CFD2C1 /* What's The Happ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "What's The Happ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BCF8D114D8947000CFD2C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04BCF8D314D8947000CFD2C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04BCF8D514D8947000CFD2C1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04BCF8D914D8947100CFD2C1 /* What's The Happ-Info.plist */ = {isa = PBXFileReference; path = "What's The Happ-Info.plist"; sourceTree = "<group>"; };
+		04BCF8DB14D8947100CFD2C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04BCF8DD14D8947100CFD2C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04BCF8DF14D8947100CFD2C1 /* What's The Happ-Prefix.pch */ = {isa = PBXFileReference; path = "What's The Happ-Prefix.pch"; sourceTree = "<group>"; };
+		04BCF8E014D8947100CFD2C1 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		04BCF8E114D8947100CFD2C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04BCF8E414D8947100CFD2C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		04BCF8E714D8947100CFD2C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		04BCF8E914D8947100CFD2C1 /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		04BCF8EA14D8947100CFD2C1 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		04BCF8EC14D8947100CFD2C1 /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		04BCF8ED14D8947100CFD2C1 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		04BCF8F414D8947100CFD2C1 /* What's The HappTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "What's The HappTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BCF8F514D8947100CFD2C1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		04BCF8FD14D8947100CFD2C1 /* What's The HappTests-Info.plist */ = {isa = PBXFileReference; path = "What's The HappTests-Info.plist"; sourceTree = "<group>"; };
+		04BCF8FF14D8947100CFD2C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04BCF90114D8947100CFD2C1 /* What_s_The_HappTests.h */ = {isa = PBXFileReference; path = What_s_The_HappTests.h; sourceTree = "<group>"; };
+		04BCF90214D8947100CFD2C1 /* What_s_The_HappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = What_s_The_HappTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04BCF8CA14D8947000CFD2C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BCF8D214D8947000CFD2C1 /* UIKit.framework in Frameworks */,
+				04BCF8D414D8947000CFD2C1 /* Foundation.framework in Frameworks */,
+				04BCF8D614D8947000CFD2C1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BCF8F014D8947100CFD2C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BCF8F614D8947100CFD2C1 /* SenTestingKit.framework in Frameworks */,
+				04BCF8F714D8947100CFD2C1 /* UIKit.framework in Frameworks */,
+				04BCF8F814D8947100CFD2C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04BCF8C214D8947000CFD2C1 = {
+			isa = PBXGroup;
+			children = (
+				04BCF8D714D8947100CFD2C1 /* What's The Happ */,
+				04BCF8FB14D8947100CFD2C1 /* What's The HappTests */,
+				04BCF8D014D8947000CFD2C1 /* Frameworks */,
+				04BCF8CE14D8947000CFD2C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04BCF8CE14D8947000CFD2C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04BCF8CD14D8947000CFD2C1 /* What's The Happ.app */,
+				04BCF8F414D8947100CFD2C1 /* What's The HappTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04BCF8D014D8947000CFD2C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04BCF8D114D8947000CFD2C1 /* UIKit.framework */,
+				04BCF8D314D8947000CFD2C1 /* Foundation.framework */,
+				04BCF8D514D8947000CFD2C1 /* CoreGraphics.framework */,
+				04BCF8F514D8947100CFD2C1 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04BCF8D714D8947100CFD2C1 /* What's The Happ */ = {
+			isa = PBXGroup;
+			children = (
+				04BCF8E014D8947100CFD2C1 /* AppDelegate.h */,
+				04BCF8E114D8947100CFD2C1 /* AppDelegate.m */,
+				04BCF8E314D8947100CFD2C1 /* MainStoryboard_iPhone.storyboard */,
+				04BCF8E614D8947100CFD2C1 /* MainStoryboard_iPad.storyboard */,
+				04BCF8E914D8947100CFD2C1 /* MasterViewController.h */,
+				04BCF8EA14D8947100CFD2C1 /* MasterViewController.m */,
+				04BCF8EC14D8947100CFD2C1 /* DetailViewController.h */,
+				04BCF8ED14D8947100CFD2C1 /* DetailViewController.m */,
+				04BCF8D814D8947100CFD2C1 /* Supporting Files */,
+			);
+			path = "What's The Happ";
+			sourceTree = "<group>";
+		};
+		04BCF8D814D8947100CFD2C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04BCF8D914D8947100CFD2C1 /* What's The Happ-Info.plist */,
+				04BCF8DA14D8947100CFD2C1 /* InfoPlist.strings */,
+				04BCF8DD14D8947100CFD2C1 /* main.m */,
+				04BCF8DF14D8947100CFD2C1 /* What's The Happ-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04BCF8FB14D8947100CFD2C1 /* What's The HappTests */ = {
+			isa = PBXGroup;
+			children = (
+				04BCF90114D8947100CFD2C1 /* What_s_The_HappTests.h */,
+				04BCF90214D8947100CFD2C1 /* What_s_The_HappTests.m */,
+				04BCF8FC14D8947100CFD2C1 /* Supporting Files */,
+			);
+			path = "What's The HappTests";
+			sourceTree = "<group>";
+		};
+		04BCF8FC14D8947100CFD2C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04BCF8FD14D8947100CFD2C1 /* What's The HappTests-Info.plist */,
+				04BCF8FE14D8947100CFD2C1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04BCF8CC14D8947000CFD2C1 /* What's The Happ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BCF90614D8947100CFD2C1 /* Build configuration list for PBXNativeTarget "What's The Happ" */;
+			buildPhases = (
+				04BCF8C914D8947000CFD2C1 /* Sources */,
+				04BCF8CA14D8947000CFD2C1 /* Frameworks */,
+				04BCF8CB14D8947000CFD2C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "What's The Happ";
+			productName = "What's The Happ";
+			productReference = 04BCF8CD14D8947000CFD2C1 /* What's The Happ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04BCF8F314D8947100CFD2C1 /* What's The HappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BCF90914D8947100CFD2C1 /* Build configuration list for PBXNativeTarget "What's The HappTests" */;
+			buildPhases = (
+				04BCF8EF14D8947100CFD2C1 /* Sources */,
+				04BCF8F014D8947100CFD2C1 /* Frameworks */,
+				04BCF8F114D8947100CFD2C1 /* Resources */,
+				04BCF8F214D8947100CFD2C1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04BCF8FA14D8947100CFD2C1 /* PBXTargetDependency */,
+			);
+			name = "What's The HappTests";
+			productName = "What's The HappTests";
+			productReference = 04BCF8F414D8947100CFD2C1 /* What's The HappTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04BCF8C414D8947000CFD2C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 04BCF8C714D8947000CFD2C1 /* Build configuration list for PBXProject "What's The Happ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04BCF8C214D8947000CFD2C1;
+			productRefGroup = 04BCF8CE14D8947000CFD2C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04BCF8CC14D8947000CFD2C1 /* What's The Happ */,
+				04BCF8F314D8947100CFD2C1 /* What's The HappTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04BCF8CB14D8947000CFD2C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BCF8DC14D8947100CFD2C1 /* InfoPlist.strings in Resources */,
+				04BCF8E514D8947100CFD2C1 /* MainStoryboard_iPhone.storyboard in Resources */,
+				04BCF8E814D8947100CFD2C1 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BCF8F114D8947100CFD2C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BCF90014D8947100CFD2C1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04BCF8F214D8947100CFD2C1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04BCF8C914D8947000CFD2C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BCF8DE14D8947100CFD2C1 /* main.m in Sources */,
+				04BCF8E214D8947100CFD2C1 /* AppDelegate.m in Sources */,
+				04BCF8EB14D8947100CFD2C1 /* MasterViewController.m in Sources */,
+				04BCF8EE14D8947100CFD2C1 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BCF8EF14D8947100CFD2C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BCF90314D8947100CFD2C1 /* What_s_The_HappTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04BCF8FA14D8947100CFD2C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04BCF8CC14D8947000CFD2C1 /* What's The Happ */;
+			targetProxy = 04BCF8F914D8947100CFD2C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04BCF8DA14D8947100CFD2C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BCF8DB14D8947100CFD2C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04BCF8E314D8947100CFD2C1 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BCF8E414D8947100CFD2C1 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		04BCF8E614D8947100CFD2C1 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BCF8E714D8947100CFD2C1 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		04BCF8FE14D8947100CFD2C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BCF8FF14D8947100CFD2C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04BCF90414D8947100CFD2C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04BCF90514D8947100CFD2C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04BCF90714D8947100CFD2C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "What's The Happ/What's The Happ-Prefix.pch";
+				INFOPLIST_FILE = "What's The Happ/What's The Happ-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04BCF90814D8947100CFD2C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "What's The Happ/What's The Happ-Prefix.pch";
+				INFOPLIST_FILE = "What's The Happ/What's The Happ-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		04BCF90A14D8947100CFD2C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/What's The Happ.app/What's The Happ";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "What's The Happ/What's The Happ-Prefix.pch";
+				INFOPLIST_FILE = "What's The HappTests/What's The HappTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		04BCF90B14D8947100CFD2C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/What's The Happ.app/What's The Happ";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "What's The Happ/What's The Happ-Prefix.pch";
+				INFOPLIST_FILE = "What's The HappTests/What's The HappTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04BCF8C714D8947000CFD2C1 /* Build configuration list for PBXProject "What's The Happ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BCF90414D8947100CFD2C1 /* Debug */,
+				04BCF90514D8947100CFD2C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BCF90614D8947100CFD2C1 /* Build configuration list for PBXNativeTarget "What's The Happ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BCF90714D8947100CFD2C1 /* Debug */,
+				04BCF90814D8947100CFD2C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04BCF90914D8947100CFD2C1 /* Build configuration list for PBXNativeTarget "What's The HappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BCF90A14D8947100CFD2C1 /* Debug */,
+				04BCF90B14D8947100CFD2C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04BCF8C414D8947000CFD2C1 /* Project object */;
+}
